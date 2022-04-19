@@ -1,7 +1,10 @@
+import java.util.Scanner;
 public class SwapExp{
 static public  void main (String [] args)
 {
-int a = 10, b =12;
+Scanner sc = new Scanner(System.in);
+int a= sc.nextInt();
+int b = sc.nextInt();
 System.out.println("numbers before swapping" +a + " " +b);
 a = a+b;
 b = a-b;
