@@ -9,6 +9,7 @@ class Axis extends Bank
 {
 void interest()
 {
+super.interest();
 System.out.println("Welcome Axis to bank portal");
 }
 }
